@@ -12,15 +12,17 @@ export default function Weather(props) {
 
     axios.get(url).then(showForecast);
     return (
+        <div className='Watch'>
       <Watch
         height="80"
         width="80"
         radius="48"
-        color="#4fa94d"
+        color="blue"
         ariaLabel="watch-loading"
         wrapperStyle={{}}
         wrapperClassName=""
         visible={true}
       />
+        </div>
     );
 }

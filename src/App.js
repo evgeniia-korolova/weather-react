@@ -1,5 +1,5 @@
 import Weather from './Weather';
-import { Audio } from 'react-loader-spinner';
+
 import './App.css';
 
 function App() {
