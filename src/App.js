@@ -10,13 +10,13 @@ function App() {
         <Weather />
       </div>
       <div>
-        This project was coded by Evgeniia Korolova{' '}
+      Open soursed code by {' '}
         <a
           href="https://github.com/evgeniia-korolova/weather-react"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          and is open-sourced on GitHub
+        > 
+          Evgeniia Korolova
         </a>
       </div>
     </>
